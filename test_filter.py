@@ -42,7 +42,7 @@ def calculate_pass_rate(test_cases):
             passed_case += 1  
     return (passed_case/all_cases)*100
 
-failed = get_failed_high_priority(test_cases)
+
 
 def get_failed_high_priority(test_cases):
     result =[]
@@ -50,6 +50,8 @@ def get_failed_high_priority(test_cases):
        if test[3] == "Failed" and test[2] == "High":
            result.append(test[1])
     return result
+
+failed = get_failed_high_priority(test_cases)
 
 #RESULT
 
