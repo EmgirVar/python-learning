@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Первый баг",
+        "severity": "Critical",
+        "status": "Resolved",
+        "assignee": "Ivan"
+    },
+    {
+        "id": 2,
+        "title": "Второй баг",
+        "severity": "Major",
+        "status": "Resolved",
+        "assignee": "Ivan"
+    },
+    {
+        "id": 3,
+        "title": "Третий баг",
+        "severity": "Minor",
+        "status": "In Progress",
+        "assignee": "Maria"
+    },
+    {
+        "id": 4,
+        "title": "Четвертый баг",
+        "severity": "Trivial",
+        "status": "Closed",
+        "assignee": "Alex"
+    },
+    {
+        "id": 5,
+        "title": "Пятый баг",
+        "severity": "Critical",
+        "status": "Open",
+        "assignee": "Alex"
+    },
+    {
+        "id": 6,
+        "title": "Шестой баг",
+        "severity": "Major",
+        "status": "In Progress",
+        "assignee": "Alex"
+    }
+]
