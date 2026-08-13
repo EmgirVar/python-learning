@@ -43,7 +43,7 @@ print()
 
 print(f"=== CRITICAL OPEN BUGS ===")
 print(f"FOUND: {get_critical_open_titles(bugs)}")
-print(f"List: {get_critical_name(bugs)}")
+print(f"List: {get_critical_open_titles(bugs)}")
 print()
 
 print(f"=== RELEASE STATUS ===")
