@@ -26,14 +26,6 @@ def get_critical_open_titles(bugs):
     return result
 
 #4
-def get_critical_name(bugs):
-    result = []
-    for bug in bugs:
-        if bug["severity"] == "Critical" and bug["status"] == "Open":
-            result.append(bug["title"])
-    return result
-
-#4
 def is_release_ready(bugs):
     return len(get_critical_open_titles(bugs)) == 0
 
